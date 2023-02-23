@@ -3,13 +3,13 @@
 
 
 ### Components
-![](./components/assets/v1pic_demo/v1-1.png)
-![](./components/assets/v1pic_demo/v1-2.png)
-![](./components/assets/v1pic_demo/v1-3.png)
-![](./components/assets/v1pic_demo/v1-4.png)
-![](./components/assets/v1pic_demo/v1-5.png)
-![](./components/assets/v1pic_demo/v1-6.png)
-![](./components/assets/v1pic_demo/v1-7.png)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-1.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-2.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-3.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-4.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-5.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-6.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-7.png?raw=true)
 
 
 #### 注意

@@ -25,8 +25,15 @@ const TitleContentView = forwardRef((props, ref) => {
     </View>
 
 })
+
 /**
  * @容器布局
- * title = '标题'
+ * 
+ * @example
+ * ```
+ *   <TitleContentView title = '标题'>
+ *        其他组件组件
+ *   </TitleContentView>
+ * ```
  */
 export default React.memo(TitleContentView)

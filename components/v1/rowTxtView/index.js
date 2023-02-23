@@ -28,11 +28,24 @@ const RowTxtView = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * title-标题
+ * 
  * title_second-右边标题
+ * 
  * boolShowLine 是否展示底部横线 默认展示
+ * 
  * boolWrite 是否展示必填项标志*  默认不展示
+ * 
  * boolShowArrow 是否展示右边箭头 默认不展示
+ * 
  * onClick
+ * 
+ * @example
+ * 
+ * ```
+ *  <RowTxtView title='标题(RowTxtView)' title_second={'右边内容'} 
+ *          boolWrite={true} boolShowArrow={true} onClick={() => this.toRowxTxtViewClick()} />
+ * ```
  */
 export default React.memo(RowTxtView)

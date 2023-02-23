@@ -31,13 +31,28 @@ const ColumnTextarea = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * title-标题
+ * 
  * boolShowTitle 是否展示标题布局 默认展示
+ * 
  * boolShowLine-是否展示底部横线 默认展示
+ * 
  * boolEdit-是否可编辑 默认可编辑
+ * 
  * boolWrite 是否展示必填项标志*  默认不展示
+ * 
  * placeholder = '请输入'
+ * 
  * onInput,maxlength = 250
+ * 
  * value = ''
+ * 
+ * @example
+ * ```
+ * <ColumnTextarea title={'多行输入文本标题(ColumnTextarea)'} boolWrite={true} 
+ *                  boolShowLine={true} onInput={(e) => this.onInputB(e)} />
+ * ```
+ * 
  */
 export default React.memo(ColumnTextarea)

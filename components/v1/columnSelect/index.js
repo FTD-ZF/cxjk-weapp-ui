@@ -63,12 +63,31 @@ const ColumnSelect = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * title-标题
+ * 
  * boolShowLine 是否展示底部横线 默认展示
+ * 
  * boolEdit 是否可编辑 默认可编辑
+ * 
  * boolWrite 是否展示必填项标志*  默认不展示
+ * 
  * select_left_txt 展示左边选择文本
+ * 
  * select_right_txt 展示右边选择文本
+ * 
  * getSelectStatus 获取选择值
+ * 
+ * @example
+ * 
+ * ```
+ *   this.refColumnSelect.toSetSelectStatus(1)
+ * ```
+ * 
+ * ```
+ *  <ColumnSelect title={'单选标题(ColumnSelect)'}
+                            ref={ref => this.refColumnSelect = ref}
+                            boolWrite={true} getSelectStatus={(type) => this.getSelectStatus(type)} />
+ * ```
  */
 export default React.memo(ColumnSelect)

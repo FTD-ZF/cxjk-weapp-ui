@@ -26,14 +26,29 @@ const ColumnInput = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * title-标题
+ * 
  * boolShowLine-是否展示底部横线 默认展示
+ * 
  * boolEdit-是否可编辑 默认可编辑
+ * 
  * boolWrite 是否展示必填项标志*  默认不展示
+ * 
  * placeholder = '请输入' 
+ * 
  * onInput
+ * 
  * type = 'text'
+ * 
  * value = ''
+ * 
  * maxlength = 250
+ * 
+ * @example
+ * ```
+ *    <ColumnInput title={'标题(ColumnInput)'} boolWrite={true} onInput={(e) => this.onInputA(e)} />
+ * ```
+ * 
  */
 export default React.memo(ColumnInput)

@@ -29,7 +29,17 @@ const TabView = forwardRef((props, ref) => {
 
 /**
  * @切换布局
- * list 数据格式  [{ name: '切换一', select: true }, { name: '切换二', select: false }, { name: '切换三', select: false }]
- * onClick 点击获取数组下标
+ * 
+ * @list数据格式
+ * 
+ * ```
+ * tabList: [{ name: '切换一', select: true }, { name: '切换二', select: false }, { name: '切换三', select: false }]
+ * ```
+ * 
+ * @example
+ * 
+ * ```
+ *  <TabView list={tabList} onClick={(index) => this.toTabClick(index)} />
+ * ```
  */
 export default React.memo(TabView)

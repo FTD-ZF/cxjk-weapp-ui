@@ -23,7 +23,16 @@ const BottomSubmitView = forwardRef((props, ref) => {
 /**
  * 底部按钮
  * @参数
+ * 
  * title_a = '保存'
+ * 
  * onClick
+ * 
+ * @example
+ * ```
+ * <BottomSubmitView onClick={() => this.toSubmit()} />
+ * 
+ * ```
+ * 
  */
 export default React.memo(BottomSubmitView)

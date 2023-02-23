@@ -44,9 +44,41 @@ const ExpandListView = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * title-标题
+ * 
  * boolShowRight-是否开启展开收起功能，默认开启
+ * 
  * boolUp-判定展开收起布局
+ * 
  * clickDown-点击展开收起
+ * 
+ * @list数据格式
+ * ```
+ *   expandList: [{ name: '测试1', select: false, list: [{ name: '1' }, { name: '2' }] },
+            { name: '测试2', select: false, list: [{ name: '2' }, { name: '2' }] }],
+ * ```
+ * 
+ * @example
+ * ```
+ *  <ExpandListView title={'标题(ExpandListView)无展开'} boolShowRight={false} />
+ *     
+ * ```
+ * ```
+ *              {
+                        expandList && expandList.map((item, index) => {
+                            return <ExpandListView key={index} title={'标题(ExpandListView)'} boolUp={item.select} clickDown={() => this.clickDown(index)} >
+                                {
+                                    item.list && item.list.map((item2, index2) => {
+                                        return <View className={styles.item} key={index2} >
+                                            {item2.name}
+                                        </View>
+                                    })
+                                }
+                            </ExpandListView>
+                        })
+                    }
+ * ```
+ * 
  */
 export default React.memo(ExpandListView)

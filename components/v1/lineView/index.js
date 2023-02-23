@@ -17,6 +17,8 @@ const LineView = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * type 1-正常线 2-左边距离32 3-左右边距离32
+ * 
  */
 export default React.memo(LineView)

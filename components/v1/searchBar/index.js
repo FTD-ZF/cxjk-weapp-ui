@@ -27,9 +27,19 @@ const SearchBar = forwardRef((props, ref) => {
 
 /**
  * @搜索框布局
+ * 
  * @参数
+ * 
  * placeholder = '请输入搜索内容'
+ * 
  * onConfirm
+ * 
  * value = ''
+ * 
+ * @example
+ * ```
+ *  <SearchBar value={searchKey} onConfirm={(e) => this.onSearchConfirm(e)} />
+ * ```
+ * 
  */
 export default React.memo(SearchBar)

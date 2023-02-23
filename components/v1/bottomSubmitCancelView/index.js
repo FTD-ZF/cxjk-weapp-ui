@@ -28,9 +28,18 @@ const BottomSubmitCancelView = forwardRef((props, ref) => {
 /**
  * 底部双按钮 取消 确定
  * @参数
+ * 
  * title_a = '删除'
+ * 
  * title_b = '保存'
+ * 
  * onClickDelete
+ * 
  * onClickSave, 
+ * 
+ * @example
+ * ```
+ *   <BottomSubmitCancelView onClickDelete={() => this.toCancel()} onClickSave={() => this.toSubmit()} />
+ * ```
  */
 export default React.memo(BottomSubmitCancelView)

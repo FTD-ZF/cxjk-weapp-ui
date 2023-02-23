@@ -40,12 +40,25 @@ const ColumnSelectArrow = forwardRef((props, ref) => {
 
 /**
  * @参数
+ * 
  * title-标题
+ * 
  * boolShowLine-是否展示底部横线 默认展示
+ * 
  * boolEdit-是否可编辑 默认可编辑
+ * 
  * boolWrite 是否展示必填项标志*  默认不展示
+ * 
  * title_second 第二标题内容
+ * 
  * onClick
+ * 
+ * @example
+ * 
+ * ```
+ *   <ColumnSelectArrow title={'选项标题(ColumnSelectArrow)'} title_second={title_second}
+ *          boolWrite={true} onClick={() => this.onClickColumnSelectArrow()} />
+ * ```
  * 
  */
 export default React.memo(ColumnSelectArrow)

@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 0px;
+    background-color: #F2F3F4;
+}
+
+
+.name {
+    font-size: 28px;
+    color: #3296FA;
+    margin-left: 32px;
+    font-weight: 500;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}

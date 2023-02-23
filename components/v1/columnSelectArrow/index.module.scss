@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 32px;
+}
+
+.content_a {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_a {
+    font-size: 34px;
+    color: #171A1D;
+}
+
+.title_b {
+    font-size: 34px;
+    color: #171A1D;
+    margin-top: 12px;
+}
+
+.img {
+    width: 32px;
+    height: 32px;
+}

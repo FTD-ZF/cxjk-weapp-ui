@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.img {
+    width: 360px;
+    height: 360px;
+}
+
+.txt {
+    font-size: 34px;
+    color: #171A1D;
+}

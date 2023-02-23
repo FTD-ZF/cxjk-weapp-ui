@@ -1,0 +1,19 @@
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 24px 32px 96px 32px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0089FF;
+    border-radius: 16px;
+    padding: 20px 0px;
+    font-size: 34px;
+    color: white;
+}

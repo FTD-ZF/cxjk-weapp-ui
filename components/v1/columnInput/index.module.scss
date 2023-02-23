@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 32px;
+}
+
+.title_a {
+    font-size: 34px;
+    color: #171A1D;
+}
+
+.title_b {
+    font-size: 34px;
+    color: #171A1D;
+    margin-top: 12px;
+}

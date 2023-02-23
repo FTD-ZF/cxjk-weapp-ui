@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 24px;
+}
+
+.content {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    background-color: rgba(25, 31, 37, 0.04);
+    border-radius: 12px;
+    padding-left: 24px;
+}
+
+.img {
+    width: 32px;
+    height: 32px;
+}
+
+.input {
+    width: 100%;
+    background-color: transparent;
+    font-size: 28px;
+    color: #191F25;
+    padding: 10px;
+    opacity: 0.4;
+}

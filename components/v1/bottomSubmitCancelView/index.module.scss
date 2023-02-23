@@ -1,0 +1,35 @@
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 24px 32px 96px 32px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0089FF;
+    border-radius: 16px;
+    padding: 20px 0px;
+    font-size: 34px;
+    color: white;
+    margin-left: 6px;
+}
+
+.content_delete {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5219;
+    border-radius: 16px;
+    padding: 20px 0px;
+    font-size: 34px;
+    color: white;
+    margin-right: 6px;
+}

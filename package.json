@@ -1,7 +1,7 @@
 {
-  "name": "cxjk_weapp_ui",
-  "version": "1.0.3",
-  "description": "cxjk_weapp_ui",
+  "name": "cxjk-weapp-ui",
+  "version": "1.0.0",
+  "description": "cxjk-weapp-ui",
   "templateInfo": {
     "name": "default",
     "typescript": false,

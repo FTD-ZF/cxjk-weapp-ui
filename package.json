@@ -1,11 +1,15 @@
 {
   "name": "cxjk-weapp-ui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "cxjk-weapp-ui",
   "templateInfo": {
     "name": "default",
     "typescript": false,
     "css": "sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FTD-ZF/cxjk-weapp-ui.git"
   },
   "keywords": [
     "taro",

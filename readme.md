@@ -2,7 +2,7 @@
 基于taro框架下的UI组件库（仅供小程序和H5端使用）
 
 ### 使用
-npm i npm i cxjk-weapp-ui
+npm i cxjk-weapp-ui
 
 ### Components
 ![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-1.png?raw=true)

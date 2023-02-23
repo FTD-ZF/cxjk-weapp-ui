@@ -2,9 +2,7 @@ import React, { Component, forwardRef, useImperativeHandle, useRef, useState } f
 import { View, Image, Text, Input, } from '@tarojs/components'
 import styles from './index.module.scss'
 
-/**
- * type 1-正常线 2-左边距离32 3-左右边距离32
- */
+
 const LineView = forwardRef((props, ref) => {
 
     const { type = 1, } = props;
@@ -17,4 +15,8 @@ const LineView = forwardRef((props, ref) => {
 
 })
 
+/**
+ * @参数
+ * type 1-正常线 2-左边距离32 3-左右边距离32
+ */
 export default React.memo(LineView)

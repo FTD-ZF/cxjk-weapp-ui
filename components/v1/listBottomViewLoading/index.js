@@ -16,4 +16,7 @@ const ListBottomViewLoading = (props) => {
     </View>
 }
 
+/**
+ * 底部加载布局
+ */
 export default ListBottomViewLoading

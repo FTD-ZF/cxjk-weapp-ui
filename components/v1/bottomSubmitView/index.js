@@ -14,12 +14,16 @@ const BottomSubmitView = forwardRef((props, ref) => {
     }))
 
     return <View className={styles.main} >
-
         <View className={styles.content} onClick={() => NoDoublePress.onPress(onClick)} >
             {title_a}
         </View>
-
     </View>
 
 })
+/**
+ * 底部按钮
+ * @参数
+ * title_a = '保存'
+ * onClick
+ */
 export default React.memo(BottomSubmitView)

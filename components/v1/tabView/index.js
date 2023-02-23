@@ -4,10 +4,6 @@ import { View, Image, Text, Input, } from '@tarojs/components'
 import styles from './index.module.scss'
 
 
-/**
- * list 数据格式  [{ name: '切换一', select: true }, { name: '切换二', select: false }, { name: '切换三', select: false }]
- * onClick 点击获取数组下标
- */
 const TabView = forwardRef((props, ref) => {
 
     const { list = [], onClick, } = props;
@@ -29,4 +25,11 @@ const TabView = forwardRef((props, ref) => {
     </View>
 
 })
+
+
+/**
+ * @切换布局
+ * list 数据格式  [{ name: '切换一', select: true }, { name: '切换二', select: false }, { name: '切换三', select: false }]
+ * onClick 点击获取数组下标
+ */
 export default React.memo(TabView)

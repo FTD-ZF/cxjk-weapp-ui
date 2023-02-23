@@ -4,9 +4,6 @@ import { View, Image, Text, Input, } from '@tarojs/components'
 import styles from './index.module.scss'
 import { ImageKeys } from '../../assets';
 
-
-
-
 const EmptyView = forwardRef((props, ref) => {
 
     const { title = '暂无任何内容', } = props;
@@ -29,7 +26,9 @@ const EmptyView = forwardRef((props, ref) => {
     } else {
         return <View />
     }
-
-
 })
+
+/**
+ * 缺省页布局
+ */
 export default React.memo(EmptyView)

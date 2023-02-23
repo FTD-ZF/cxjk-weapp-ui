@@ -7,13 +7,6 @@ import { ImageKeys } from '../../assets'
 import NoDoublePress from '../../../utils/NoDoubleClick'
 
 
-/**
- * title-标题
- * title_second-右边标题
- * boolShowLine 是否展示底部横线 默认展示
- * boolWrite 是否展示必填项标志*  默认不展示
- * boolShowArrow 是否展示右边箭头 默认不展示
- */
 const RowTxtView = forwardRef((props, ref) => {
 
     const { title = '', title_second = '', boolShowLine = true, boolWrite = false, boolShowArrow = false, onClick } = props;
@@ -33,4 +26,13 @@ const RowTxtView = forwardRef((props, ref) => {
     </View>
 })
 
+/**
+ * @参数
+ * title-标题
+ * title_second-右边标题
+ * boolShowLine 是否展示底部横线 默认展示
+ * boolWrite 是否展示必填项标志*  默认不展示
+ * boolShowArrow 是否展示右边箭头 默认不展示
+ * onClick
+ */
 export default React.memo(RowTxtView)

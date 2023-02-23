@@ -5,13 +5,7 @@ import styles from './index.module.scss'
 import LineView from '../lineView';
 
 
-/**
- * title-标题
- * boolShowTitle 是否展示标题布局 默认展示
- * boolShowLine-是否展示底部横线 默认展示
- * boolEdit-是否可编辑 默认可编辑
- * boolWrite 是否展示必填项标志*  默认不展示
- */
+
 const ColumnTextarea = forwardRef((props, ref) => {
 
     const { title = '', placeholder = '请输入', onInput,
@@ -34,4 +28,16 @@ const ColumnTextarea = forwardRef((props, ref) => {
     </View>
 
 })
+
+/**
+ * @参数
+ * title-标题
+ * boolShowTitle 是否展示标题布局 默认展示
+ * boolShowLine-是否展示底部横线 默认展示
+ * boolEdit-是否可编辑 默认可编辑
+ * boolWrite 是否展示必填项标志*  默认不展示
+ * placeholder = '请输入'
+ * onInput,maxlength = 250
+ * value = ''
+ */
 export default React.memo(ColumnTextarea)

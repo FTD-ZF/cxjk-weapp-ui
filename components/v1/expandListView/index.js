@@ -4,12 +4,7 @@ import { View, Image, Text, Input, } from '@tarojs/components'
 import styles from './index.module.scss'
 import { ImageKeys } from '../../assets';
 
-/**
- * title-标题
- * boolShowRight-是否开启展开收起功能，默认开启
- * boolUp-判定展开收起布局
- * clickDown-点击展开收起
- */
+
 const ExpandListView = forwardRef((props, ref) => {
 
     const { title = '', boolShowRight = true, boolUp = false, clickDown, } = props;
@@ -17,7 +12,6 @@ const ExpandListView = forwardRef((props, ref) => {
     useImperativeHandle(ref, () => ({
 
     }))
-
 
     return <View className={styles.main} >
         {/* 展开点击 */}
@@ -47,4 +41,12 @@ const ExpandListView = forwardRef((props, ref) => {
     </View>
 
 })
+
+/**
+ * @参数
+ * title-标题
+ * boolShowRight-是否开启展开收起功能，默认开启
+ * boolUp-判定展开收起布局
+ * clickDown-点击展开收起
+ */
 export default React.memo(ExpandListView)

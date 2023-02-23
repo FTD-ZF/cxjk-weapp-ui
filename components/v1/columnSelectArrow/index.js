@@ -7,14 +7,6 @@ import LineView from '../lineView';
 import NoDoublePress from '../../../utils/NoDoubleClick'
 
 
-/**
- * title-标题
- * boolShowLine-是否展示底部横线 默认展示
- * boolEdit-是否可编辑 默认可编辑
- * boolWrite 是否展示必填项标志*  默认不展示
- * title_second 第二标题内容
- * 
- */
 const ColumnSelectArrow = forwardRef((props, ref) => {
 
     const { title = '', title_second = '请选择',
@@ -45,4 +37,15 @@ const ColumnSelectArrow = forwardRef((props, ref) => {
     </View>
 
 })
+
+/**
+ * @参数
+ * title-标题
+ * boolShowLine-是否展示底部横线 默认展示
+ * boolEdit-是否可编辑 默认可编辑
+ * boolWrite 是否展示必填项标志*  默认不展示
+ * title_second 第二标题内容
+ * onClick
+ * 
+ */
 export default React.memo(ColumnSelectArrow)

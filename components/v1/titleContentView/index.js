@@ -6,7 +6,7 @@ import styles from './index.module.scss'
 
 const TitleContentView = forwardRef((props, ref) => {
 
-    const { title = '会议', children, } = props;
+    const { title = '标题', children, } = props;
 
     useImperativeHandle(ref, () => ({
 
@@ -25,4 +25,8 @@ const TitleContentView = forwardRef((props, ref) => {
     </View>
 
 })
+/**
+ * @容器布局
+ * title = '标题'
+ */
 export default React.memo(TitleContentView)

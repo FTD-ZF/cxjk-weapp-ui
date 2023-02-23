@@ -3,13 +3,7 @@ import { View, Image, } from '@tarojs/components'
 import styles from './index.module.scss'
 import { ImageKeys } from '../../assets';
 
-/**
- * isLoading 是否显示loading
- * mask是否防止触摸穿透(模块化部分加载时使用:false)
- * imgSource -默认gif图案
- * @param {*} props 
- * @returns 
- */
+
 const Loading = (props) => {
 
     const { isLoading = false, mask = true, imgSource = ImageKeys.loading_gif } = props;
@@ -25,4 +19,10 @@ const Loading = (props) => {
     }
 }
 
+/**
+ * @参数
+ * isLoading 是否显示loading
+ * mask是否防止触摸穿透(模块化部分加载时使用:false)
+ * imgSource -默认gif图案
+ */
 export default React.memo(Loading)

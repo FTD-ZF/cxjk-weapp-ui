@@ -12,6 +12,7 @@ npm i cxjk-weapp-ui
 ![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-5.png?raw=true)
 ![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-6.png?raw=true)
 ![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-7.png?raw=true)
+![](https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/v1pic_demo/v1-8.png?raw=true)
 
 
 #### 注意

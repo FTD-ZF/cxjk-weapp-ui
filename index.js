@@ -13,6 +13,7 @@ import ListBottomView from './components/v1/listBottomView'
 import TabView from './components/v1/tabView'
 import RowTxtView from './components/v1/rowTxtView'
 import ExpandListView from './components/v1/expandListView'
+import SliderView from './components/v1/sliderView'
 
 
 export {
@@ -31,4 +32,5 @@ export {
     TabView,
     RowTxtView,
     ExpandListView,
+    SliderView,
 }

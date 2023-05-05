@@ -5,6 +5,7 @@ import icon_empty from './images/icon_empty.png'
 import ic_search from './images/ic_search.png'
 import ic_blue_up from './images/icon_blue_up.png'
 import ic_blue_down from './images/ic_blue_down.png'
+import ic_del from './images/ic_del.png'
 
 
 export const ImageKeys = {
@@ -14,4 +15,5 @@ export const ImageKeys = {
     ic_search,
     ic_blue_up,
     ic_blue_down,
+    ic_del,
 }

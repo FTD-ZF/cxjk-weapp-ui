@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.movablearea {
+    display: flex;
+    width: 100%;
+    // height: 200px;
+    background-color: white;
+}
+
+.movableview {
+    display: flex;
+    width: calc(100% + 160rpx);
+    // height: 200px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 160rpx);
+    height: 100%;
+    // padding: 0 0 0 20rpx;
+}
+
+.del {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 160rpx;
+    height: 100%;
+    color: white;
+    font-size: 28rpx;
+    background-color: #E12020;
+}
+
+.delimg {
+    width: 48px;
+    height: 48px;
+}
+
+.delTxt {
+    font-size: 24px;
+    color: #fff;
+}

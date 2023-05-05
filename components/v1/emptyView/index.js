@@ -2,7 +2,6 @@ import React, { Component, forwardRef, useImperativeHandle, useRef, useState } f
 import { View, Image, Text, Input, } from '@tarojs/components'
 
 import styles from './index.module.scss'
-import { ImageKeys } from '../../assets';
 
 const EmptyView = forwardRef((props, ref) => {
 
@@ -20,7 +19,7 @@ const EmptyView = forwardRef((props, ref) => {
 
     if (boolShow) {
         return <View className={styles.main} >
-            <Image className={styles.img} src={ImageKeys.icon_empty} />
+            <Image className={styles.img} src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/icon_empty.png' />
             <Text className={styles.txt}>{title}</Text>
         </View>
     } else {

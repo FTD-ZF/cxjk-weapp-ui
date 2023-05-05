@@ -3,7 +3,6 @@ import { View, Image, Text, Input, } from '@tarojs/components'
 
 import styles from './index.module.scss'
 import LineView from '../lineView'
-import { ImageKeys } from '../../assets'
 import NoDoublePress from '../../../utils/NoDoubleClick'
 
 
@@ -18,7 +17,7 @@ const RowTxtView = forwardRef((props, ref) => {
             </View>
             <View className={styles.right_v} >
                 <Text className={styles.title_b} >{title_second}</Text>
-                {boolShowArrow ? <Image className={styles.img} src={ImageKeys.ic_arrow} /> : <View />}
+                {boolShowArrow ? <Image className={styles.img} src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/ic_arrow.png' /> : <View />}
             </View>
 
         </View>

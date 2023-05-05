@@ -2,7 +2,6 @@ import React, { Component, forwardRef, useImperativeHandle, useRef, useState } f
 import { View, Image, Text, Input, } from '@tarojs/components'
 
 import styles from './index.module.scss'
-import { ImageKeys } from '../../assets';
 
 
 const ExpandListView = forwardRef((props, ref) => {
@@ -24,10 +23,10 @@ const ExpandListView = forwardRef((props, ref) => {
             {
                 boolShowRight ? boolUp ? <View className={styles.top_right}  >
                     <Text className={styles.title_up} >收起</Text>
-                    <Image className={styles.img} src={ImageKeys.ic_blue_up} />
+                    <Image className={styles.img} src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/icon_blue_up.png' />
                 </View> : <View className={styles.top_right} >
                     <Text className={styles.title_up} >展开</Text>
-                    <Image className={styles.img_a} src={ImageKeys.ic_blue_down} />
+                    <Image className={styles.img_a} src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/ic_blue_down.png' />
                 </View> : <View />
             }
         </View>

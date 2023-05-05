@@ -1,12 +1,12 @@
 import React from 'react'
 import { View, Image, } from '@tarojs/components'
 import styles from './index.module.scss'
-import { ImageKeys } from '../../assets';
 
 
 const Loading = (props) => {
 
-    const { isLoading = false, mask = true, imgSource = ImageKeys.loading_gif } = props;
+    const { isLoading = false, mask = true,
+        imgSource = 'https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/loading.gif' } = props;
 
     if (isLoading) {
         return <View className={mask ? styles.loading : styles.loading2}>

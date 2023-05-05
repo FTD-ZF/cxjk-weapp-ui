@@ -2,7 +2,6 @@ import { Text, View, Image, ScrollView, MovableArea, MovableView } from '@tarojs
 import React, { forwardRef, useImperativeHandle, useState } from 'react'
 import Taro, { getCurrentInstance } from "@tarojs/taro";
 import styles from './index.module.scss'
-import { ImageKeys } from '../../assets';
 
 
 const SliderView = forwardRef((props, ref) => {
@@ -141,7 +140,9 @@ const SliderView = forwardRef((props, ref) => {
                                 className={styles.del}
                                 data-item={item}
                                 onClick={onDeleteItem} >
-                                <Image src={ImageKeys.ic_del} className={styles.delimg} />
+                                    
+                                <Image src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/ic_del.png'
+                                    className={styles.delimg} />
                                 <Text className={styles.delTxt} >删除</Text>
                             </View>
                         </MovableView>

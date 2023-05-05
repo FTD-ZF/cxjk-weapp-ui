@@ -3,8 +3,6 @@ import { View, Image, Text, Input, } from '@tarojs/components'
 
 import styles from './index.module.scss'
 import NoDoublePress from '../../../utils/NoDoubleClick';
-import { ImageKeys } from '../../assets';
-
 
 const SearchBar = forwardRef((props, ref) => {
 
@@ -17,7 +15,7 @@ const SearchBar = forwardRef((props, ref) => {
     return <View className={styles.main} >
 
         <View className={styles.content} >
-            <Image className={styles.img} src={ImageKeys.ic_search} />
+            <Image className={styles.img} src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/ic_search.png'/>
             <Input className={styles.input} placeholder={placeholder} value={value}
                 onConfirm={(e) => NoDoublePress.onPress(() => onConfirm(e.detail.value))} />
         </View>

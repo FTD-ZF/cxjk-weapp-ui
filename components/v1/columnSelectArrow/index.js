@@ -2,7 +2,6 @@ import React, { Component, forwardRef, useImperativeHandle, useRef, useState } f
 import { View, Image, Text, Input, } from '@tarojs/components'
 
 import styles from './index.module.scss'
-import { ImageKeys } from '../../assets';
 import LineView from '../lineView';
 import NoDoublePress from '../../../utils/NoDoubleClick'
 
@@ -30,7 +29,7 @@ const ColumnSelectArrow = forwardRef((props, ref) => {
                 <Text className={styles.title_b} >{title_second}</Text>
             </View>
             <View className={styles.img}>
-                <Image className={styles.img} src={ImageKeys.ic_arrow} />
+                <Image className={styles.img} src='https://raw.githubusercontent.com/FTD-ZF/cxjk-weapp-ui/main/components/assets/images/ic_arrow.png' />
             </View>
         </View>
         {boolShowLine ? <LineView type={2} /> : <View />}

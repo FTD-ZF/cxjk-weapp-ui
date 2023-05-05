@@ -16,4 +16,6 @@ npm i cxjk-weapp-ui
 
 
 #### 注意
-- 最新taro框架构建新项目，请勿选择webpack5（会导致钉钉端小程序部分组件无法正常渲染）
+- 最新taro框架构建新项目，钉钉端请勿选择webpack5（会导致钉钉端小程序部分组件无法正常渲染）
+- 微信小程序端，需要选择webpack5,此项目使用了cssModules（猜测swc版本问题导致）
+- 近期创建新项目后编译发生问题，查看https://github.com/NervJS/taro/issues/13544
